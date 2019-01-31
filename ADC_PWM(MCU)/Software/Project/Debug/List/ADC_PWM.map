@@ -1,0 +1,250 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V6.6.0.102                                         #
+#                                                                              #
+#           Link time     =  31/Jan/2019  10:21:26                             #
+#           Target CPU    =  A90                                               #
+#           List file     =  C:\Users\Administrator\Desktop\CCMHCN\Software\Pr #
+#                            oject\Debug\List\ADC_PWM.map                      #
+#           Output file 1 =  C:\Users\Administrator\Desktop\CCMHCN\Software\Pr #
+#                            oject\Debug\Exe\ADC_PWM.hex                       #
+#                            Format: intel-extended                            #
+#           Output file 2 =  C:\Users\Administrator\Desktop\CCMHCN\Software\Pr #
+#                            oject\Debug\Exe\ADC_PWM.d90                       #
+#                            Format: ubrof10                                   #
+#                            UBROF version 10.0.6                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  -f                                                #
+#                            C:\Users\ADMINI~1\AppData\Local\Temp\EWC592.tmp   #
+#                            (C:\Users\Administrator\Desktop\CCMHCN\Software\P #
+#                            roject\Debug\Obj\asm.r90                          #
+#                            C:\Users\Administrator\Desktop\CCMHCN\Software\Pr #
+#                            oject\Debug\Obj\Fun_ADC.r90                       #
+#                            -o                                                #
+#                            C:\Users\Administrator\Desktop\CCMHCN\Software\Pr #
+#                            oject\Debug\Exe\ADC_PWM.d90                       #
+#                            -l                                                #
+#                            C:\Users\Administrator\Desktop\CCMHCN\Software\Pr #
+#                            oject\Debug\List\ADC_PWM.map                      #
+#                            -xms                                              #
+#                            "-IG:\Program Files (x86)\IAR Systems\Embedded Wo #
+#                            rkbench 8.0\avr\LIB\"                             #
+#                            -f                                                #
+#                            "G:\Program Files (x86)\IAR Systems\Embedded Work #
+#                            bench 8.0\avr\src\template\cfgtiny13a.xcl"        #
+#                            (-D_..X_INTVEC_SIZE=14 -D_..X_FLASH_END=3FF       #
+#                            -D_..X_SRAM_BASE=60                               #
+#                            -D_..X_SRAM_TBASE=_..X_SRAM_BASE                  #
+#                            -D_..X_SRAM_END=9F -D_..X_EEPROM_END=3F           #
+#                            -D_..X_EEPROM_START=0) -Hff -J2,crc16,W,,,1,0     #
+#                            -D_..X_HEAP_SIZE=0 -D_..X_TINY_HEAP_SIZE=0        #
+#                            -D_..X_NEAR_HEAP_SIZE=0 -D_..X_FAR_HEAP_SIZE=0    #
+#                            -D_..X_HUGE_HEAP_SIZE=0 -D_..X_CSTACK_SIZE=20     #
+#                            -D_..X_RSTACK_SIZE=20                             #
+#                            -D_..X_FLASH_CODE_END=_..X_FLASH_END -f           #
+#                            "G:\Program Files (x86)\IAR Systems\Embedded Work #
+#                            bench 8.0\avr\src\template\cfg0t.xcl"             #
+#                            (-ca90 -w29                                       #
+#                            -Z(CODE)INTVEC=0-(_..X_INTVEC_SIZE-1)             #
+#                            -Z(CODE)TINY_F=_..X_FLASH_BASE-FF                 #
+#                            -Z(CODE)NEAR_F=_..X_FLASH_BASE-_..X_FLASH_END     #
+#                            -Z(CODE)SWITCH=_..X_FLASH_BASE-_..X_FLASH_END     #
+#                            -Z(CODE)INITTAB=_..X_FLASH_BASE-_..X_FLASH_END    #
+#                            -Z(CODE)DIFUNCT=_..X_FLASH_BASE-_..X_FLASH_END    #
+#                            -Z(CODE)CODE=_..X_FLASH_BASE-_..X_FLASH_END       #
+#                            -Z(CODE)TINY_ID=_..X_FLASH_BASE-_..X_FLASH_END    #
+#                            -Z(CODE)NEAR_ID=_..X_FLASH_BASE-_..X_FLASH_END    #
+#                            -Z(CODE)CHECKSUM#_..X_FLASH_END                   #
+#                            -Z(DATA)TINY_I,TINY_Z,TINY_N=_..X_SRAM_BASE-_..X_ #
+#                            SRAM_END                                          #
+#                            -Z(DATA)CSTACK+_..X_CSTACK_SIZE=_..X_CSTACK_BASE- #
+#                            _..X_CSTACK_END                                   #
+#                            -Z(DATA)HEAP+_..X_HEAP_SIZE=_..X_SRAM_BASE-_..X_S #
+#                            RAM_END                                           #
+#                            -Z(DATA)IOSTREAM_N#_..X_SRAM_BASE-_..X_SRAM_END   #
+#                            -Z(DATA)TINY_HEAP+_..X_TINY_HEAP_SIZE=_..X_SRAM_B #
+#                            ASE-_..X_SRAM_END                                 #
+#                            -Z(DATA)RSTACK+_..X_RSTACK_SIZE=_..X_RSTACK_BASE- #
+#                            _..X_RSTACK_END                                   #
+#                            -Z(XDATA)EEPROM_I,EEPROM_N=_..X_EEPROM_START-_..X #
+#                            _EEPROM_END)                                      #
+#                            -D_..X_FLASH_BASE=_..X_INTVEC_SIZE                #
+#                            -h'1895'(CODE)0-(_..X_INTVEC_SIZE-1)              #
+#                            --global_fill -D_..X_CSTACK_BASE=_..X_SRAM_BASE   #
+#                            -D_..X_CSTACK_END=_..X_SRAM_END                   #
+#                            -D_..X_RSTACK_BASE=_..X_SRAM_BASE                 #
+#                            -D_..X_RSTACK_END=_..X_SRAM_END -rt               #
+#                            -Ointel-extended=C:\Users\Administrator\Desktop\C #
+#                            CMHCN\Software\Project\Debug\Exe\ADC_PWM.hex)     #
+#                                                                              #
+#                           Copyright (C) 1987-2018 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+                  There are no program entries.
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __tiny_avr = false
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                  There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _..X_RSTACK_END         0000009F 
+           _..X_RSTACK_BASE        00000060 
+           _..X_CSTACK_END         0000009F 
+           _..X_CSTACK_BASE        00000060 
+           _..X_FLASH_BASE         00000014 
+           _..X_FLASH_CODE_END     000003FF 
+           _..X_RSTACK_SIZE        00000020 
+           _..X_CSTACK_SIZE        00000020 
+           _..X_HUGE_HEAP_SIZE     00000000 
+           _..X_FAR_HEAP_SIZE      00000000 
+           _..X_NEAR_HEAP_SIZE     00000000 
+           _..X_TINY_HEAP_SIZE     00000000 
+           _..X_HEAP_SIZE          00000000 
+           _..X_EEPROM_START       00000000 
+           _..X_EEPROM_END         0000003F 
+           _..X_SRAM_END           0000009F 
+           _..X_SRAM_TBASE         00000060 
+           _..X_SRAM_BASE          00000060 
+           _..X_FLASH_END          000003FF 
+           _..X_INTVEC_SIZE        00000014 
+    *************************************************************************
+
+  FILE NAME : C:\Users\Administrator\Desktop\CCMHCN\Software\Project\Debug\Obj\asm.r90
+  PROGRAM MODULE, NAME : asm
+
+Absolute parts
+     00000000 - 00000003
+     00000020 - 00000033
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           main                    00000020 
+           MainLoop                00000030 
+    *************************************************************************
+
+  FILE NAME : C:\Users\Administrator\Desktop\CCMHCN\Software\Project\Debug\Obj\Fun_ADC.r90
+  PROGRAM MODULE, NAME : Fun_FOR_ADC
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: CODE 00000034 - 0000005F (0x2c bytes), align: 1
+  Segment part 0. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Fun_ADC_Close           00000048        Absolute parts (asm)
+           Fun_ADC_init            00000034        Absolute parts (asm)
+
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?FILLER_BYTES
+
+  SEGMENTS IN THE MODULE
+  ======================
+?FILL3
+  Relative segment, address: CODE 00000060 - 000003FD (0x39e bytes), align: 0
+  Segment part 2.
+    -------------------------------------------------------------------------
+?FILL2
+  Relative segment, address: CODE 00000004 - 00000013 (0x10 bytes), align: 0
+  Segment part 1.
+    -------------------------------------------------------------------------
+?FILL1
+  Relative segment, address: CODE 00000014 - 0000001F (0xc bytes), align: 0
+  Segment part 0.
+
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?CHECKSUM
+
+  SEGMENTS IN THE MODULE
+  ======================
+CHECKSUM
+  Relative segment, address: CODE 000003FE - 000003FF (0x2 bytes), align: 0
+  Segment part 1. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __checksum              000003FE 
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+?FILL2               CODE          00000004 - 00000013          10   rel    0
+?FILL1               CODE          00000014 - 0000001F           C   rel    0
+CODE                 CODE          00000034 - 0000005F          2C   rel    1
+?FILL3               CODE          00000060 - 000003FD         39E   rel    0
+CHECKSUM             CODE          000003FE - 000003FF           2   rel    0
+                     CODE          00000000 - 00000003           4  aseg  
+                     CODE          00000020 - 00000033          14  aseg  
+
+
+                ****************************************
+                *                                      *
+                *              CHECKSUMS               *
+                *                                      *
+                ****************************************
+
+Symbol      Checksum  Memory  Start      End       Initial  #Initial
+------      --------  ------  -----      ---       -------  --------
+__checksum    0x73f7   CODE   00000000 - 000003FD   0x0000   #0x0000
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 46 bytes of CODE memory (+ 24 absolute, 954 range fill )
+
+Errors: none
+Warnings: none
+

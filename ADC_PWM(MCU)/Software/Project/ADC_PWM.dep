@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2885616324</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\asm.s90</file>
+            <file>$PROJ_DIR$\Fun_ADC.asm</file>
+            <file>$PROJ_DIR$\Debug\Obj\asm.r90</file>
+            <file>$PROJ_DIR$\Debug\Exe\ADC_PWM.d90</file>
+            <file>$PROJ_DIR$\Debug\List\ADC_PWM.map</file>
+            <file>$PROJ_DIR$\Debug\Exe\ADC_PWM.hex</file>
+            <file>$PROJ_DIR$\RamDefine.inc</file>
+            <file>$PROJ_DIR$\AVR_MACRO.asm</file>
+            <file>$PROJ_DIR$\Debug\Obj\Fun_ADC.r90</file>
+            <file>$TOOLKIT_DIR$\src\template\cfg0t.xcl</file>
+            <file>$TOOLKIT_DIR$\src\template\cfgtiny13a.xcl</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 3 4 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\asm.s90</name>
+            <outputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 6 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Fun_ADC.asm</name>
+            <outputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 6 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\ADC_PWM.d90</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 4 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 10 9 2 8</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

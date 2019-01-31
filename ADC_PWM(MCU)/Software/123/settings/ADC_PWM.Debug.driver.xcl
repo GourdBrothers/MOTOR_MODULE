@@ -1,0 +1,15 @@
+"--cpu=m8a" 
+
+"--enhanced_core" 
+
+"-p" 
+
+"G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\avr\Config\iom8a.ddf" 
+
+"--eeprom_size" 
+
+"512" 
+
+
+
+

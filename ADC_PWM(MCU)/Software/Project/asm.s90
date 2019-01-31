@@ -1,0 +1,30 @@
+;=============================================================
+;== 
+;== Change the occupancy ratio of PWM by ADC conversion value
+;== 2019.01.28
+;=============================================================
+
+      #include  "RamDefine.inc"
+      #include  "AVR_MACRO.asm"
+      
+      extern    Fun_ADC_Close
+      extern    Fun_ADC_init
+
+;=============================================================
+      ORG       0000H
+      JMP       main
+      
+      ORG       0020H
+
+;=============================================================      
+main:
+      MOVFF      Buffer0,Buffer1
+      call       Fun_ADC_init
+      call       Fun_ADC_Close
+MainLoop:
+
+      JMP       MainLoop
+      
+;=============================================================
+      END
+ 
