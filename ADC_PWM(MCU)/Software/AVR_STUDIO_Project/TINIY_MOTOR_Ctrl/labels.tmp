@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATtiny13</DEVICE>
+ <WORKING_DIR>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>G:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\Main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>G:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn13def.inc</FILE>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\RamDefine.inc</FILE>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.hex</FILE>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.eep</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SysFlow><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\RamDefine.inc</FILE><LINE>18</LINE></SysFlow>
+  <SysFlag><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\RamDefine.inc</FILE><LINE>19</LINE></SysFlag>
+  <SysReset><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\Main.asm</FILE><LINE>23</LINE></SysReset>
+  <SysISR_INT0><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>2</LINE></SysISR_INT0>
+  <SysISR_PCI0><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>5</LINE></SysISR_PCI0>
+  <SysISR_OVF0><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>8</LINE></SysISR_OVF0>
+  <SysISR_ERDY><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>11</LINE></SysISR_ERDY>
+  <SysISR_ACI><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>14</LINE></SysISR_ACI>
+  <SysISR_OC0A><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>17</LINE></SysISR_OC0A>
+  <SysISR_OC0B><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>20</LINE></SysISR_OC0B>
+  <SysISR_WDT><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>23</LINE></SysISR_WDT>
+  <SysISR_ADCC><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\SysISR_Handle.asm</FILE><LINE>26</LINE></SysISR_ADCC>
+  <Fun_Delay10ms><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>6</LINE></Fun_Delay10ms>
+  <Fun_Delay_ms><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>13</LINE></Fun_Delay_ms>
+  <Fun_Delay_1ms><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>10</LINE></Fun_Delay_1ms>
+  <Fun_Delay_msLoop><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>15</LINE></Fun_Delay_msLoop>
+  <Fun_Delay_0_Loop><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>18</LINE></Fun_Delay_0_Loop>
+  <Fun_Delay_0_END><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>24</LINE></Fun_Delay_0_END>
+  <Fun_Sys_init><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\FunLib.asm</FILE><LINE>31</LINE></Fun_Sys_init>
+  <main><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\Main.asm</FILE><LINE>28</LINE></main>
+  <SN><FILE>C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\Main.asm</FILE><LINE>35</LINE></SN>
+ </LABELS>
+</ASSEMBLER_INFO>

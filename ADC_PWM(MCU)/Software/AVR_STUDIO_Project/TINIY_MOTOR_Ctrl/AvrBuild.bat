@@ -1,0 +1,2 @@
+@ECHO OFF
+"G:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\labels.tmp" -fI -W+ie -C V2 -o "C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.hex" -d "C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.obj" -e "C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.eep" -m "C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\TINIY_MOTOR_Ctrl.map" "C:\Users\Administrator\Desktop\123\TINIY_MOTOR_Ctrl\Main.asm"
